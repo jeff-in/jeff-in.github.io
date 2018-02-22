@@ -34,7 +34,7 @@ function draw()
     ellipse(windowWidth/2,windowHeight-200,200,200);
     fill('#29C7AE');
     textSize(windowWidth/5);
-    text("TILT",windowWidth/3-50,windowHeight/3);
+    text("TILTe",windowWidth/3-50,windowHeight/3);
     rotX=rotationX;
     rotY=rotationY;
     fill('#E9FF39');
