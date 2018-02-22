@@ -29,7 +29,7 @@ function draw()
 {if(done==0)
   {
     clear();
-    background('#209D89');
+    background('#277779');
     fill('#67FFE8');
     ellipse(windowWidth/2,windowHeight-200,200,200);
     fill('#29C7AE');
