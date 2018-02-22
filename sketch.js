@@ -1,16 +1,4 @@
-/*
----------------------------WHAT IS NEXT?------------------------------------------
-PROJECT TITLE: WHAT IS NEXT?
-MINIGAME #5 TILT
-Created by: Mahsa Karimi
-Jeffin Philip
-Date of completion:10-28-2016
-Description: WHAT IS NEXT? is a memory game consisting of series of puzzles.
-Solving these mini puzzles leads into finishing the game.
-Minigame #5 This game uses the accelerometer within phone to control a ball. The
-player has to direct the ball to the target to clear the level
-----------------------------------------------------------------------------------
-*/
+
 var img;
 var rotX;
 var rotY;
@@ -24,7 +12,7 @@ var scaleFactotY;
 
 function preload()
 {
-  img = loadImage("1.png");
+  //img = loadImage("1.png");
 }
 function setup() {
   fullscreen();
@@ -69,8 +57,8 @@ function draw()
 function loadPic()
 {done=1;
   fullscreen();
-  scale(scaleFactorX,scaleFactorX);
-  imageMode(CORNER,displayWidth,displayHeight);
-  image(img, 0, 0);
+//  scale(scaleFactorX,scaleFactorX);
+//  imageMode(CORNER,displayWidth,displayHeight);
+//  image(img, 0, 0);
   fill('#209D89');
 }
